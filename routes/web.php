@@ -34,4 +34,9 @@ Route::get('/', 'PagesController@index');
 Route::get('/contact', 'PagesController@contact');
 Route::get('/portfolio', 'PagesController@portfolio');
 Route::get('/services', 'PagesController@services');
-Route::get('/admin', 'PagesController@admin');
+// Route::get('/admin', 'PagesController@admin');
+Route::resource('/admin', 'PostsController');
+
+Auth::routes();
+
+Route::get('/dashboard', 'DashboardController@index')->name('dashboard');

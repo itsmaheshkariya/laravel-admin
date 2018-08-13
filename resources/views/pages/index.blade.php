@@ -3,7 +3,7 @@
 
 @section('content')
 
-<div class="banner">
+{{-- <div class="banner">
 		<div class="container">
 			<section class="slider">
 					<div class="flexslider">
@@ -24,16 +24,13 @@
 								<div class="agileits_w3layouts_banner_info">
 									<h3>Our Vision</h3>
 									<p>Our vision is to become a high quality, value leader in the event management service industry.</p>
-									<!-- <p>Standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book</p> -->
-									<!-- <div class="agileits_w3layouts_more">
-										<a href="#" data-toggle="modal" data-target="#myModal">Read More</a>
-									</div> -->
+									
 								</div>
 							</li>
 						</ul>
 					</div>
 				</section>
-			<!-- flexSlider -->
+
 				<script defer src="js/jquery.flexslider.js"></script>
 				<script type="text/javascript">
 					$(window).load(function(){
@@ -45,11 +42,10 @@
 					  });
 					});
 				</script>
-			<!-- //flexSlider -->
+		
 		</div>
 	</div>
-<!-- //banner -->	
-<!-- services -->
+
 	<div class="services">
 		<div class="container">
 		<h2 class="w3ls_head"><span>TYPES OF </span> EVENTS</h2>
@@ -124,8 +120,7 @@
 			</div>			
 		</div>
 	</div>	
-<!-- //services -->	
-<!-- stats -->
+
 	<div class="sta-agile">
 		<div class="stat-agile-info">
 			<div class="container">
@@ -164,84 +159,16 @@
 		</div>
 	</div>
 	<div class="clearfix"> </div>
-<!-- //stats -->
-<!-- stats -->
+
 	<script src="js/jquery.waypoints.min.js"></script>
 	<script src="js/jquery.countup.js"></script>
 		<script>
 			$('.counter').countUp();
 		</script>
-<!-- //stats -->
-<!-- about-team -->
-	<!-- <div class="team">		
-		<div class="container"> 
-			<h2 class="w3ls_head"><span>Our </span>Team</h2> 
-			<div class="team-row-agileinfo">
-				<div class="col-md-3 col-sm-6 col-xs-6 team-grids">
-					<div class="thumbnail team-agileits">
-						<img src="images/t1.jpg" class="img-responsive" alt=""/>
-						<div class="w3agile-caption">
-							<h4>Vaura Tegsner</h4>
-							<p>Manager</p> 
-							<div class="social-w3lsicon"> 
-								<a href="#"><i class="fa fa-twitter"></i></a>
-								<a href="#"><i class="fa fa-facebook"></i></a> 
-								<a href="#"><i class="fa fa-google-plus"></i></a>  
-							</div>	
-						</div> 
-					</div>
-				</div>
-				<div class="col-md-3 col-sm-6 col-xs-6 team-grids">
-					<div class="thumbnail team-agileits">
-						<img src="images/t2.jpg" class="img-responsive" alt=""/>
-						<div class="w3agile-caption">
-							<h4>Jark Kohnson</h4>
-							<p>Manager</p> 
-							<div class="social-w3lsicon"> 
-								<a href="#"><i class="fa fa-twitter"></i></a>
-								<a href="#"><i class="fa fa-facebook"></i></a> 
-								<a href="#"><i class="fa fa-google-plus"></i></a>  
-							</div>	
-						</div> 
-					</div>
-				</div>
-				<div class="col-md-3 col-sm-6 col-xs-6 team-grids">
-					<div class="thumbnail team-agileits">
-						<img src="images/t3.jpg" class="img-responsive" alt=""/>
-						<div class="w3agile-caption">
-							<h4>Chunk Erson</h4>
-							<p>Manager</p> 						
-							<div class="social-w3lsicon"> 
-								<a href="#"><i class="fa fa-twitter"></i></a>
-								<a href="#"><i class="fa fa-facebook"></i></a> 
-								<a href="#"><i class="fa fa-google-plus"></i></a>  
-							</div>	
-						</div> 
-					</div>
-				</div>
-				<div class="col-md-3 col-sm-6 col-xs-6 team-grids">
-					<div class="thumbnail team-agileits">
-						<img src="images/t4.jpg" class="img-responsive" alt=""/>
-						<div class="w3agile-caption">
-							<h4>Goes Mehak</h4>
-							<p>Manager</p> 						
-							<div class="social-w3lsicon"> 
-								<a href="#"><i class="fa fa-twitter"></i></a>
-								<a href="#"><i class="fa fa-facebook"></i></a> 
-								<a href="#"><i class="fa fa-google-plus"></i></a>  
-							</div>		
-						</div> 
-					</div>
-				</div>
-				<div class="clearfix"> </div>
-			</div>
-		</div>
-	</div> -->
-<!-- //about-team -->
-<!-- testimonials -->
+
 <div class="col-md-12 services-agile-info">
 	
-	<!--<table class="table">-->
+
 	
 		<div class="container">
 		<h2 class="w3ls_head"><span>valuable</span> clients</h2>
@@ -559,61 +486,13 @@
 			
 	
 	</div>
-	<!--	<tbody>-->
-	<!--		<tr>-->
-	<!--			<td><h4>* Maruti </h4></td>-->
-	<!--			<td><h4>* Prestige </h4></td>-->
-	<!--			<td><h4>* Ultra take Cement </h4></td>-->
-	<!--			<td><h4>* Airport Authority Of -->
-	<!--				India</h4></td>-->
-	<!--		</tr>-->
-	<!--		<tr>-->
-	<!--			<td><h4>* WCl</h4></td>-->
-	<!--			<td><h4>* Ambuja Cement </h4></td>-->
-	<!--			<td><h4>* NTPC  Ltd.</h4></td>-->
-	<!--			<td><h4>* CPWD</h4></td>-->
-	<!--		</tr>-->
-	<!--		<tr>-->
-	<!--			<td><h4>* NAHI</h4></td>-->
-	<!--			<td><h4>* BHEL</h4></td>-->
-	<!--			<td><h4>* SAIL</h4></td>-->
-	<!--			<td><h4>* PWD Maharashtra </h4></td>-->
-	<!--		</tr>-->
-	<!--		<tr>-->
-	<!--			<td><h4>* PWD MP</h4></td>-->
-	<!--			<td><h4>* ITC  Lt -->
-	<!--			</h4></td>-->
-	<!--			<td><h4>* Arawali Power  Company Ltd.</h4></td>-->
-	<!--			<td><h4>* Panjabrao Agricultutural,Akola-->
-	<!--			</h4></td>-->
-	<!--		</tr>-->
-	<!--		<tr>-->
-	<!--			<td><h4>* Amaravti University,Amaravti </h4></td>-->
-	<!--			<td><h4>* Sai -->
-	<!--				Sansthan,Sirdi</h4></td>-->
-	<!--			<td><h4>* Cancer Foundation,Amaravti </h4></td>-->
-	<!--			<td><h4>*Rastsant -->
-	<!--				Tukdoji Maharaj Sansthan Mozri</h4></td>-->
-	<!--		</tr>-->
-	<!--		<tr>-->
-	<!--			<td><h4>* Indian Railway 					</h4></td>-->
-	<!--			<td><h4>* Lenchopower,Wardha	</h4></td>-->
-	<!--			<td><h4>* Adani Power Ltd,Tiroda</h4></td>-->
-	<!--			<td><h4>* Monohar bhai Patel  </h4></td>-->
-	<!--		</tr>-->
-	<!--		<tr>-->
-	<!--			<td><h4>* Acadmey,Gondiya</h4></td>-->
-				
-	<!--		</tr>-->
-	<!--	</tbody>-->
-	<!--</table>-->
+	
 	</div>
 	
 		
 	
 	<div class="clearfix"></div>
-	<!-- //testimonials -->
-<!-- news-letter -->
+
 	<div class="news-letter">
 		<div class="container">	
 			<h3 class="w3ls_head"><span>Subscribe </span>Here </h3>
@@ -626,8 +505,7 @@
 				</form>
 			</div>
 		</div>
-	</div>
-	<!-- //news-letter -->
-	<!-- footer -->
+	</div> --}}
+
 
 	@endsection
